@@ -9,5 +9,9 @@ Console.WriteLine("sbyte veri tipinin min değeri: " + sbyteMinValue);
 // sbyte data type değerlernin max ve min ispatı
 sbyte sbyteMaxValue2 = sbyte.MaxValue;
 Console.WriteLine("sbyte max value ispatı: " + sbyteMaxValue2);
-sbyte sbyteMinValue2 = -128;
+sbyte sbyteMinValue2 = sbyte.MinValue;
 Console.WriteLine("sbyte min value ispatı: " + sbyteMinValue2);
+
+sbyte havaSicakligi = 2;
+//int havaSicakligi2 = 10;
+Console.WriteLine("Hava sıcaklığı: " + (sbyte)(havaSicakligi + 10));
